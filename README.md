@@ -1,3 +1,5 @@
-# CourseProject
+# CS-410-CourseProject
 
-Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
+Reproducing results from a paper: 
+"Mining Causal Topics in Text Data: Iterative Topic Modeling with Time Series Feedback"
+
