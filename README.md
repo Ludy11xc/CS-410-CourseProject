@@ -45,6 +45,12 @@ cd CS-410-CourseProject
 pip install -r requirements.txt
 ```
 
+If you would like to run the websraper, you can with 
+```
+python data_scrapper.py
+```
+However, know that it will most likely take multiple hours to complete, and the data has already been scraped and is present in the data folder.
+
 Then to run the code,
 
 ```
