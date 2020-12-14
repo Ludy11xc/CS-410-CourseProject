@@ -35,7 +35,7 @@ Looking at these words, we can definitely see some topics that were very relevan
 \* If desired, set up virtual env. Then, to set up the code: \*
 
 ```
-# Clone repo
+# Clone repo, could take a couple seconds-minutes depending on download speed because of data (20-30 MB)
 git clone https://github.com/Ludy11xc/CS-410-CourseProject.git
 
 # Navigate into repo
