@@ -36,12 +36,12 @@ def tokenize(docs):
     new_docs = [[token for token in doc if len(token) > 2] for doc in new_docs]
 
     # Remove stop words
-    # nltk.download('stopwords') REMOVE COMMENT IF NEEDING TO DOWNLOAD
+    nltk.download('stopwords') # Was previously commented out, comment out if already downloaded
     stop_words = set(stopwords.words('english'))
     new_docs = [[token for token in doc if not token in stop_words] for doc in new_docs]
 
     # Lemmatize the documents.
-    # nltk.download('wordnet') REMOVE COMMENT IF NEEDING TO DOWNLOAD
+    nltk.download('wordnet') # Was previously commented out, comment out if already downloaded
     lemmatizer = WordNetLemmatizer()
     new_docs = [[lemmatizer.lemmatize(token) for token in doc] for doc in new_docs]
 
