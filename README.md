@@ -32,3 +32,25 @@ Looking at these words, we can definitely see some topics that were very relevan
 
 ### Setup/Run Code
 
+* If desired, set up virtual env. Then, to set up the code: *
+
+```
+# Clone repo
+git clone https://github.com/Ludy11xc/CS-410-CourseProject.git
+
+# Navigate into repo
+cd CS-410-CourseProject
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+Then to run the code,
+
+```
+# Run this to get results from current model
+python lda.py
+
+# OR, run this to train a new model and get new results
+python lda.py train
+```
