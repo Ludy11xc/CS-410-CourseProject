@@ -41,7 +41,7 @@ git clone https://github.com/Ludy11xc/CS-410-CourseProject.git
 # Navigate into repo
 cd CS-410-CourseProject
 
-# Install dependencies
+# Install dependencies.  If EnvironmentError is encountered, rerun with --user
 pip install -r requirements.txt
 ```
 
