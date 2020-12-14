@@ -32,7 +32,7 @@ Looking at these words, we can definitely see some topics that were very relevan
 
 ### Setup/Run Code
 
-* If desired, set up virtual env. Then, to set up the code: *
+\* If desired, set up virtual env. Then, to set up the code: \*
 
 ```
 # Clone repo
